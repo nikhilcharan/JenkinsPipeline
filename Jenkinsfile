@@ -8,4 +8,6 @@ stage 'starting'
   stage 'list contents'
   sh 'ls'
   
+  input message: 'Please approve', ok: 'Do you approve?', parameters: [string(defaultValue: 'devops-321', description: '', name: 'jira ticket')], submitter: 'root', submitterParameter: 'approver'
+  
   }
