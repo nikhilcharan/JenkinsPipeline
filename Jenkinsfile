@@ -14,6 +14,13 @@ pipeline{
             }
             
           
+            stage("next"){
+            
+            steps{
+            echo "Here"
+            
+                
+            }
             
             
             
