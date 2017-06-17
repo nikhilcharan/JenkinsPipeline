@@ -1,18 +1,11 @@
-pipeline
-{
-    agent 'any'
-    
-    stages
-    {
-        step
-        {
-            
-            
-            
-        }
+pipeline{
+    agent any
+    stages{
+        
         
         
     }
+    
     
     
 }
