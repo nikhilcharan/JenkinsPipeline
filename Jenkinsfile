@@ -1,5 +1,5 @@
 pipeline{
-    agent any{
+    agent any
      
         stages{
             stage("Initial"){
@@ -39,7 +39,7 @@ pipeline{
         
         
         
-    }
+    
     
     
     
