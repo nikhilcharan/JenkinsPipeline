@@ -2,7 +2,9 @@ pipeline{
     agent any
     stages{
         
-        stage{
+        stage 'clone'{
+            
+            echo "Hello world"
             
         }
         
