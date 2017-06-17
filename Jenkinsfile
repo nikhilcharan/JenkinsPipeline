@@ -12,13 +12,7 @@ pipeline{
                 
             }
             
-            
-              post{
-                  
-                  echo "Post"
-            
-        }
-        
+          
             
             
             
@@ -27,6 +21,14 @@ pipeline{
         }
         
       
+        
+    }
+    
+    post{
+        always{
+        
+     echo "Hello"
+        }
         
     }
     
