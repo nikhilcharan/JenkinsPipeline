@@ -4,7 +4,12 @@ pipeline
     
     stages
     {
-        
+        step
+        {
+            
+            
+            
+        }
         
         
     }
