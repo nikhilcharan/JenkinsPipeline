@@ -11,7 +11,7 @@ pipeline{
                         
                         if(x == 10)
                         {
-                         currentBuild.result = 'FAILURE'   
+                         currentBuild.result = 'SUCCESS'   
                         }
                         
                         
