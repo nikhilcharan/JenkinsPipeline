@@ -11,9 +11,22 @@ pipeline{
              echo(ticketVal['date'])
                 
             }
+            
+            
+              post{
+                  
+                  echo "Post"
+            
         }
         
+            
+            
+            
+            
+            
+        }
         
+      
         
     }
     
