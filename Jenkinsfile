@@ -1,46 +1,18 @@
 pipeline{
     agent any
-     
-        stages{
-            stage("Initial"){
-             
-                steps{
-                    
-                    script{
-                     def  x= 10
-                        
-                        if(x == 10)
-                        {
-                         currentBuild.result = 'SUCCESS'   
-                        }
-                        
-                        
-                    }
-                    
-                    
-                }
-                
-                
-                
+    stages{
+        
+        stage("clone repo"){
+         
+            steps{
                 
                 
             }
-            
-            
-            
-            
-            
-            
-            
-            
         }
-            
-            
         
         
         
-    
-    
+    }
     
     
     
