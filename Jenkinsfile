@@ -6,6 +6,7 @@ pipeline{
          
             steps{
                 
+                git url:"https://github.com/sumeshkanayi/Webapp.git" branch: "master" credentialsId: "mygithub"
                 
             }
         }
