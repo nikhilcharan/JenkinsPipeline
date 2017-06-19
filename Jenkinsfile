@@ -17,7 +17,7 @@ pipeline{
             steps{
                 
                 
-                sh 'mvn clean install -f trucks'
+                sh 'mvn clean install -f trucks/pom.xml'
                 
             }
         }
