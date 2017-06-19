@@ -12,6 +12,18 @@ pipeline{
         }
         
         
+           stage("build using maven"){
+         
+            steps{
+                
+                
+                sh 'mvn clean install -f trucks'
+                
+            }
+        }
+        
+        
+        
         
     }
     
